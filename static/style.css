@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: JetBrainsMono-Regular;
+}
+
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    background-color: aliceblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+input[type='submit'] {
+    padding: 10px;
+    width: 30%;
+
+    border: 1px solid tomato;
+    color: tomato;
+
+    font-size: 16px;
+
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.inputs {
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 60%;
+
+    font-size: 16px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    padding: 2%;
+
+    background-color: white;
+    border-radius: 5px;
+}
+
+#message {
+    margin-top: 8px;
+    padding: 10px;
+
+    border-radius: 5px;
+    background-color: gainsboro;
+}
