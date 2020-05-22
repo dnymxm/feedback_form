@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-You need to create a `config.py` file on the main folder.
+You need to create a `config.py` file in the main folder.
 
 Here is the configuration variables you need to connect with mailtrap.io :
 
